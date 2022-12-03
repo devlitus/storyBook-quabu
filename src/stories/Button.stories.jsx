@@ -1,5 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Button } from '../components/button/Button';
+=======
+import { Button } from '../components/Button';
+
+>>>>>>> 5dba415 (first commit)
 
 export default {
   title: 'Components/Button',
