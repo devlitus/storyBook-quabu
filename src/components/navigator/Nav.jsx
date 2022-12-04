@@ -1,13 +1,12 @@
+import './nav.css'
+
 export const Nav = ({ logo }) => {
   return (
     <div className="nav">
-      <div className="nav__logo">
-        <img src={logo} alt="logo" />
-      </div>
       <div className="nav__links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a className='nav__links__link' href="#">Home</a>
+        <a className='nav__links__link' href="#">About</a>
+        <a className='nav__links__link' href="#">Contact</a>
       </div>
     </div>
   )

@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+  max-height: 20vh;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(227, 227, 227);
+  box-shadow: inset 0px 0px 0px 1px rgb(227, 227, 227);
+  color: rgb(3, 3, 3);
+  text-align: center;
+}
+.header__logo {
+  margin-left: 3vw;
+}
+.header__nav {
+  margin-right: 3vw;
+}

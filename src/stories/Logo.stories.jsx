@@ -1,15 +1,14 @@
-import { Header } from '../layouts/header'
+import { Logo } from '../components/logo/Logo'
 
 export default {
-  title: 'Layout/Header',
-  component: Header,
+  title: 'Components/Logo',
+  component: Logo,
   parameters: {
     layout: 'fullscreen'
   }
 }
 
-const Template = (args) => <Header {...args} />
-
+const Template = (args) => <Logo {...args} />
 export const Default = Template.bind({})
 
 Default.args = {

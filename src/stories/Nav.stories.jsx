@@ -15,5 +15,6 @@ export const Navigation = Template.bind({})
 
 Navigation.args = {
   primary: true,
-  link: ['Home', 'About', 'Contact']
+  link: ['Home', 'About', 'Contact'],
+  logo: 'quanbu.jpg'
 }
