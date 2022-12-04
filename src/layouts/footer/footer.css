@@ -1,19 +1,16 @@
-.header {
+.footer__content {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 20vh;
-  max-height: 20vh;
+  height: 15vh;
+  max-height: 15vh;
   background: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(227, 227, 227);
+  border-top: 1px solid rgb(227, 227, 227);
   box-shadow: inset 0px 0px 0px 1px rgb(227, 227, 227);
   color: rgb(3, 3, 3);
   text-align: center;
 }
-.header__logo {
+.footer__nav {
   margin-left: 3vw;
-}
-.header__nav {
-  margin-right: 3vw;
 }
