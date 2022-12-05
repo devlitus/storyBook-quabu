@@ -1,21 +1,22 @@
-import { Header } from '../components/header/Header'
+import { Header } from '../layouts/header/Header'
 
 export default {
-  title: 'Components/Header',
+  title: 'Layouts/Header',
   component: Header,
   parameters: {
     layout: 'fullscreen'
+  },
+  argsTypes: {
+    backgroundColor: { control: 'color' }
   }
 }
 
 const Template = (args) => <Header {...args} />
 
-export const LoggedIn = Template.bind({})
-LoggedIn.args = {
-  user: {
-    name: 'Jane Doe'
-  }
-}
+export const Default = Template.bind({})
 
-export const LoggedOut = Template.bind({})
-LoggedOut.args = {}
+Default.args = {
+  logo: 'quanbu.jpg',
+  linkNav: ['Home', 'About', 'Contact'],
+  backgroundColor: '#f5f5f5'
+}

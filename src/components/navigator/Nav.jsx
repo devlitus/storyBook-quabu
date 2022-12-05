@@ -1,13 +1,14 @@
-export const Nav = ({ logo }) => {
+import './nav.css'
+
+export const Nav = ({ linkNav }) => {
   return (
     <div className="nav">
-      <div className="nav__logo">
-        <img src={logo} alt="logo" />
-      </div>
       <div className="nav__links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        {linkNav.map((item, index) => (
+          <a href="/" key={index} className='nav__links__link'>
+            {item}
+          </a>
+        ))}
       </div>
     </div>
   )

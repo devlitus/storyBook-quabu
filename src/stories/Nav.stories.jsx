@@ -4,7 +4,8 @@ export default {
   component: Nav,
 
   argTypes: {
-    backgroundColor: { control: 'color' }
+    backgroundColor: { control: 'color' },
+    linkNav: { control: 'array' }
   }
 
 }
@@ -15,5 +16,5 @@ export const Navigation = Template.bind({})
 
 Navigation.args = {
   primary: true,
-  link: ['Home', 'About', 'Contact']
+  linkNav: ['Home', 'About', 'Contact']
 }
