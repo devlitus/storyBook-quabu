@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=ce3d43ee3f93"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -27,10 +28,13 @@
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.11.4",
     "standard": "^17.0.0",
     "vite": "^3.2.3"
   },
   "eslintConfig": {
     "extends": "standard"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook-quabu@0.0.0"
 }
