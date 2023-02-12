@@ -3,17 +3,31 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 15vh;
-  max-height: 15vh;
+  height: 5vw;
+  max-height: 5vw;
+  min-height: 5vw;
   background: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(227, 227, 227);
   box-shadow: inset 0px 0px 0px 1px rgb(227, 227, 227);
   color: rgb(3, 3, 3);
-  text-align: center;
 }
 .header__logo {
   margin-left: 3vw;
 }
 .header__nav {
   margin-right: 3vw;
+}
+/* Movile MediaQuery */
+@media (max-width: 768px) {
+  .header {
+    justify-content: space-around;
+    height: 10vw;
+    max-height: 10vw;
+    min-height: 15vw;
+  }
+  .header__logo {
+    margin-left: 0;
+  }
+  .header__nav {
+    margin-right: 0;
+  }
 }

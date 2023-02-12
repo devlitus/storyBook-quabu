@@ -6,7 +6,7 @@
   max-width: 15vw;
   margin-top: 1rem;
   border-right: 1px solid #ccc;
-  height: 100vh;
+  height: 100vw;
 }
 .sidebar__nav {
   display: flex;
